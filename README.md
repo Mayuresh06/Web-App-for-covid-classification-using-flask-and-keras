@@ -7,11 +7,11 @@ Covid-19 is a pandemic disease caused by a virus (the SARS-CoV-2 corona virus), 
 3.	Development and testing of a Web App for the detection of Covid-19 in X-ray images
 
 ### OUTPUT IMAGES
-![](https://github.com/Mayuresh06/Web-App-for-covid-classification-using-flask-and-keras/blob/main/Screenshot%20(183).png)
+![](https://github.com/Mayuresh06/Web-App-for-covid-classification-using-flask-and-keras/blob/main/Images/Screenshot%20(183).png)
 
-![](https://github.com/Mayuresh06/Web-App-for-covid-classification-using-flask-and-keras/blob/main/Screenshot%20(184).png)
+![](https://github.com/Mayuresh06/Web-App-for-covid-classification-using-flask-and-keras/blob/main/Images/Screenshot%20(184).png)
 
-![](https://github.com/Mayuresh06/Web-App-for-covid-classification-using-flask-and-keras/blob/main/Screenshot%20(185).png)
+![](https://github.com/Mayuresh06/Web-App-for-covid-classification-using-flask-and-keras/blob/main/Images/Screenshot%20(185).png)
 
 * Dataset was downloaded from kaggle(https://www.kaggle.com/tawsifurrahman/covid19-radiography-database).
 * Data acquisition, data preprocessing and CNN model training code is given in .py

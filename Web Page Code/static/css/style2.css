@@ -1,0 +1,58 @@
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+
+  /* usual styles */
+  padding: 10px;
+  border: none;
+  background-color: #0b0c0c;
+  box-shadow: 0 0 15px 4px rgba(47, 5, 235, 0.295);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 10px;
+}
+form {
+  text-align: center;
+  width: 50%;
+  border: 5px solid #4400ff;
+  border-radius: 4px;
+  box-sizing: 25%;
+  margin-left: 300px;
+}
+select {
+  padding: 10px;
+  margin: 10px 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(47, 5, 235, 0.295);
+  border-color: rgb(82, 20, 206);
+  border-radius: 10px;
+}
+input[type="checkbox"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(47, 5, 235, 0.295);
+  border-color: rgb(82, 20, 206);
+  border-radius: 10px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(47, 5, 235, 0.295);
+  border-color: rgb(82, 20, 206);
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(47, 5, 235, 0.295);
+  border-color: rgb(82, 20, 206);
+  border-radius: 10px;
+}

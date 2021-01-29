@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Covid Classifier</title>
+    <link href="{{ url_for('static', filename='css/style2.css') }}" rel="stylesheet">  
+</head>
+<body>
+<div>
+    <form id="form" method="post" enctype="multipart/form-data" action = "http://127.0.0.1:5000/form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="Name"><br>
+
+        <label for="age">Age</label><br>
+        <input type="text" id="age" name="Age"><br>
+
+        <label for="Symptoms">Symptoms</label><br>
+        <input type="checkbox" id="Symptom1" name="Symptom1" value="fever">
+        <label for="fever"> Fever</label><br>
+        <input type="checkbox" id="Symptom2" name="Symptom2" value="cough">
+        <label for="cough">cough</label><br>
+        <input type="checkbox" id="Symptom3" name="Symptom3" value="headache">
+        <label for="headache">headache</label><br>
+        <input type="checkbox" id="Symptom4" name="Symptom4" value="Difficulty in breathing">
+        <label for="Difficulty in breathing">Difficulty in breathing</label><br>
+
+        <label for="gender">Gender</label><br>
+        <select id="gender" name="Gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select><br>
+        <p><input type = "Submit" value = "Submit" /></p>
+        </form>
+
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+
+</div>
+</body>
